@@ -14,6 +14,7 @@ export default function CallToAction() {
       { x: "-50%" },
       { duration: 30, ease: "linear", repeat: Infinity }
     );
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
