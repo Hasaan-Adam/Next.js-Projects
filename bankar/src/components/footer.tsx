@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="max-w-[90%] mx-auto pt-24 pb-12 space-y-20">
           <div className="grid grid-cols-6 gap-24">
             <div className="text-start space-y-6 col-span-2">
-              <Image src={mainLogo} alt="" className="max-h-10 w-auto" />
+              <Image src={mainLogo} alt="" className="max-h-10 w-auto invert" />
               <p className="text-sm">
                 The faster, easier way to book and manage your international
                 shipment
